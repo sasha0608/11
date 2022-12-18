@@ -5,34 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Revalia&family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/reset-style.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <!-- -->
   </head>
   <body>
     <header>
-      <a href="./index.html">wb</a>
-      <nav>
-        <ul>
-          <li><a href="">головна</a></li>
-          <li><a href="">про автора</a></li>
-          <li><a href="">работи</a></li>
-          <li><a href="">процес</a></li>
-          <li><a href="">контакти</a></li>
+      <a class="logo link" href="./index.html">wb</a>
+      <nav class="nav-menu">
+        <ul class="list">
+          <li class="item"><a class="link active" href="">головна</a></li>
+          <li class="item"><a class="link" href="">про автора</a></li>
+          <li class="item"><a class="link" href="">работи</a></li>
+          <li class="item"><a class="link" href="">процес</a></li>
+          <li class="item"><a class="link" href="">контакти</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
+      <section class="hero">
         <img src="./img/main/frame.png" alt="frame" width="360" height="235" />
-        <h1>Дизайн и верстка</h1>
+        <h1 class="title">Дизайн и верстка</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
           excepturi quibusdam nemo deleniti commodi? Maiores nesciunt similique
           itaque blanditiis, praesentium adipisci, atque officia est expedita
           reiciendis nobis, fuga recusandae minima!
         </p>
-        <button>напишіть мені</button>
+        <button class="button" type="button">напишіть мені</button>
       </section>
       <section>
         <h2>про мене</h2>
@@ -44,7 +54,7 @@
         </p>
       </section>
       <section style="background-color: blue">
-        <ul>
+        <ul class="list">
           <li>
             <img src="./img/icon/project.png" alt="" />
             <p>

@@ -1,3 +1,70 @@
-ul{
-    list-style:none;
+:root {
+  --accent-color: #34547a;
+  --text-color: #727272;
+  --second-bg: #eeeff1;
+}
+
+/* reset */
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.63;
+  color: var(--text-color);
+}
+
+/* header */
+
+.logo {
+  font-family: "Revalia", cursive;
+  font-size: 48px;
+  line-height: 1.25;
+  color: var(--accent-color);
+}
+
+/* nav */
+
+.nav-menu .link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+.link.active {
+  color: var(--accent-color);
+}
+/* main */
+
+/* hero */
+
+.hero {
+  background-color: var(--second-bg);
+}
+
+/* title */
+
+.title {
+  color: #000000;
+}
+
+.hero > .title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.65;
+}
+
+/* button */
+
+.hero .button{
+    color: #ffffff;
+    background-color: var(--accent-color);
 }
