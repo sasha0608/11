@@ -5,9 +5,23 @@
 }
 
 /* reset */
+h1, h2, h3{
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+ul, p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul{
+  padding-left: 0;
+}
 
 .list {
   list-style: none;
+  
 }
 
 .link {
@@ -21,12 +35,22 @@ body {
 }
 
 /* header */
+.header{
+  background-color: var(--second-bg);
+}
+
+.container {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .logo {
   font-family: "Revalia", cursive;
   font-size: 48px;
   line-height: 1.25;
   color: var(--accent-color);
+  
 }
 
 /* nav */
@@ -45,8 +69,10 @@ body {
 /* main */
 
 /* hero */
-
-.hero {
+.heroc{
+  padding: 162px 405px 146px 143.1px;
+}
+.hero{
   background-color: var(--second-bg);
 }
 
@@ -56,7 +82,7 @@ body {
   color: #000000;
 }
 
-.hero > .title {
+.hero .title {
   font-weight: 500;
   font-size: 48px;
   line-height: 1.65;
@@ -65,6 +91,87 @@ body {
 /* button */
 
 .hero .button{
+    padding: 25px 41px;
+
+    border: none;
+
     color: #ffffff;
+    text-transform: uppercase;
     background-color: var(--accent-color);
+    
+}
+
+.hero  p{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  max-width: 540px;
+} 
+
+/* про мене */
+.tk > .title{
+  margin-bottom: 50px;
+  font-weight: 500px;
+  font-size: 32px;
+  line-height: 1.2;
+  text-align: center;
+
+}
+
+.about{
+  padding-top: 119px;
+  padding-bottom: 100px;
+}
+
+.tk{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 540px ;
+}
+
+.tk > p{
+  text-align: center;
+}
+
+
+
+
+
+.item{
+  color: #ffffff;
+}
+
+.how-i-work{
+  padding-top: 100px;
+} 
+.how-back{
+  background-color: var(--second-bg);
+}
+
+
+
+
+.whant-ws{
+  padding-top: 100px;
+  padding-bottom: 515px;
+}
+.whant-beck{
+  background-color: var(--second-bg);
+}
+
+
+.whant-beck .button{
+  padding: 20px 49px;
+
+  border: none;
+
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: var(--accent-color);
+  
+}
+
+
+
+.pictures img{
+  display: block;
 }
